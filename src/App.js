@@ -8,13 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Link to = "/">Home</Link> - <Link to = "/ablut">about</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/ablut" element={<About />}/>
-      </Routes>
+      
     </div>
   );
 }
